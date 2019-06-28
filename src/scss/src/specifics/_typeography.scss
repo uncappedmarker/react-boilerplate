@@ -1,0 +1,41 @@
+// Headings
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+}
+
+h1 {
+	margin-bottom: $padding-1;
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+// Links
+a {
+	cursor: pointer;
+	
+	&.active,
+	&:hover {
+		color: $blue;
+	}
+}
+
+// Paragraphs
+p {
+	margin-bottom: $padding-half;
+	&:last-child, {
+		margin: 0;
+	}
+}
+
+
+
+// Alignment
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}

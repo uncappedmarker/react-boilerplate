@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Barlow');
+
+// Mixins
+@import "mixins";
+
+// Colors and sizes in vars
+@import "theme/theme";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+// Typeography
+@import "specifics/typeography";
+
+// General things
+@import "specifics/box";
+@import "specifics/square";
+
+// Specific containers
+@import "specifics/debug";
+@import "specifics/viewport";
+
+// Pages
+@import "pages/main-menu";
+
+
+body {
+	background-color: rgba($black, 0.8);
+	color: #fff;
+	font-family: $font-detail;
+}
